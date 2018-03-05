@@ -1,0 +1,39 @@
+Please enter a string to add it to the bloom filter.
+they
+Do you want to add more? Enter 'y' or press enter to continue, or another character to stop.
+y
+Please enter a string to add it to the bloom filter.
+then
+Do you want to add more? Enter 'y' or press enter to continue, or another character to stop.
+y
+Please enter a string to add it to the bloom filter.
+these
+Do you want to add more? Enter 'y' or press enter to continue, or another character to stop.
+n
+
+
+Alright! It's query time!
+Enter a string to query.
+they
+It is true that this may be in the bloom filter.
+Do you want to do more queries? Enter 'y' or press enter for yes, or any other character for no.
+y
+Enter a string to query.
+the
+It is true that this may be in the bloom filter.
+Do you want to do more queries? Enter 'y' or press enter for yes, or any other character for no.
+y
+Enter a string to query.
+these
+It is true that this may be in the bloom filter.
+Do you want to do more queries? Enter 'y' or press enter for yes, or any other character for no.
+n
+3 queries resulted in 1 false positives and 0 false negatives. This shows 33.333333333333336% false positives and 0.0% false negatives.
+
+There were 3 queries, taking the time listed below (in nanoseconds):
+
+Query 1:	75405
+Query 2:	26674
+Query 3:	63607
+
+Resulting in an average time of 55228 nanoseconds.
