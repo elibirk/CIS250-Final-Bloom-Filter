@@ -1,0 +1,59 @@
+Please enter a string to add it to the bloom filter.
+test1
+Do you want to add more? Enter 'y' or press enter to continue, or another character to stop.
+y
+Please enter a string to add it to the bloom filter.
+anger
+Do you want to add more? Enter 'y' or press enter to continue, or another character to stop.
+y
+Please enter a string to add it to the bloom filter.
+time
+Do you want to add more? Enter 'y' or press enter to continue, or another character to stop.
+y
+Please enter a string to add it to the bloom filter.
+limitations
+Do you want to add more? Enter 'y' or press enter to continue, or another character to stop.
+y
+Please enter a string to add it to the bloom filter.
+rest
+Do you want to add more? Enter 'y' or press enter to continue, or another character to stop.
+n
+
+
+Alright! It's query time!
+Enter a string to query.
+finals
+It is false that this may be in the bloom filter.
+Do you want to do more queries? Enter 'y' or press enter for yes, or any other character for no.
+y
+Enter a string to query.
+rest
+It is true that this may be in the bloom filter.
+Do you want to do more queries? Enter 'y' or press enter for yes, or any other character for no.
+y
+Enter a string to query.
+will
+It is false that this may be in the bloom filter.
+Do you want to do more queries? Enter 'y' or press enter for yes, or any other character for no.
+y
+Enter a string to query.
+wizards
+It is false that this may be in the bloom filter.
+Do you want to do more queries? Enter 'y' or press enter for yes, or any other character for no.
+y
+Enter a string to query.
+limits
+It is true that this may be in the bloom filter.
+Do you want to do more queries? Enter 'y' or press enter for yes, or any other character for no.
+n
+5 queries resulted in 2 false positives and 0 false negatives. This shows 40.0% false positives and 0.0% false negatives.
+
+There were 5 queries, taking the time listed below (in nanoseconds):
+
+Query 1:	39352
+Query 2:	20532
+Query 3:	11977
+Query 4:	20531
+Query 5:	35074
+
+Resulting in an average time of 25493 nanoseconds.
